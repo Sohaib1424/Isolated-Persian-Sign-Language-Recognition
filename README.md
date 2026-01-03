@@ -1,6 +1,6 @@
 # Isolated Persian Sign Langugage Recognition
 
-This project was inspired by tge [Google - Isolated Sign Language Recognition (https://www.kaggle.com/competitions/asl-signs/overview) competition. To create the dataset used for this project, videos of 280 signs were recorded from the waist up (A few of them represent the same word, i.e., they convey the same meaning but with slightly different representations.) , and similar to Google's Isolated Sign Language dataset, labeled landmark data was extracted using [Mediapipe Holisitc](https://github.com/google-ai-edge/mediapipe/blob/master/docs/solutions/holistic.md). The videos had varying durations (i.e., different numbers of frames); therefore, the sequence lengths of the extracted landmarks vary across videos.
+This project was inspired by tge [Google - Isolated Sign Language Recognition] (https://www.kaggle.com/competitions/asl-signs/overview) competition. To create the dataset used for this project, videos of 280 signs were recorded from the waist up (A few of them represent the same word, i.e., they convey the same meaning but with slightly different representations.) , and similar to Google's Isolated Sign Language dataset, labeled landmark data was extracted using [Mediapipe Holisitc](https://github.com/google-ai-edge/mediapipe/blob/master/docs/solutions/holistic.md). The videos had varying durations (i.e., different numbers of frames); therefore, the sequence lengths of the extracted landmarks vary across videos.
 
 The Mediapipe Holisitc model extracts 543 landmarks per person in a frame:
 - 33 body pose landmarks, representing key skeletal points (e.g., shoulders, elbows, hips).
@@ -13,4 +13,4 @@ The following is an example of landmarks extracted from a frame corresponding to
 
 <img src="imgs/sign1.png" alt="drawing" width="500px"/>
 
-The Dataset can be download either from [Google Drive] (https://drive.google.com/file/d/1kWWU4PALe5zPkVDFyYB4fQzPFK5og2jT/view?usp=sharing) or [Kaggle] (https://www.kaggle.com/datasets/sohaibmoradi/psl-tabular).
+The Dataset can be download either from [Google Drive](https://drive.google.com/file/d/1kWWU4PALe5zPkVDFyYB4fQzPFK5og2jT/view?usp=sharing) or [Kaggle](https://www.kaggle.com/datasets/sohaibmoradi/psl-tabular).
