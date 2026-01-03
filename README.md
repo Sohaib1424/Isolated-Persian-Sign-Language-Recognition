@@ -7,7 +7,7 @@ The Mediapipe Holisitc model extracts 543 landmarks per person in a frame:
 - 468 face landmarks.
 - 21 landmarks per hand.
 
-With each landmark having 3 attributes `x`, `y`, and `z`. Consequently, presented in a tabular format, there are 1626 features + 2 more features, Video Number (`video_NO`) and Frame Number (`frame_NO`), and the label. A [starter notebook]('starter notebook.ipynb') has also provided to help you familiarize yourself with the data.
+With each landmark having 3 attributes `x`, `y`, and `z`. Consequently, presented in a tabular format, there are 1626 features + 2 more features, Video Number (`video_NO`) and Frame Number (`frame_NO`), and the label. For starters, a [starter notebook]('Starter Notebook.ipynb') has also provided to help you familiarize yourselves with the dataset.
 
 The following is an example of landmarks extracted from a frame corresponding to the word `مناسبت` (`Occasion`).
 
